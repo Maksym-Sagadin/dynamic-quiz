@@ -1,0 +1,50 @@
+.main-container {
+    margin: 0 10px;
+    width: 750px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.questions {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+.questions > input:last-of-type {
+    margin-bottom: 0;
+}
+input {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.result {
+    padding: 10px;
+    background-color: cornsilk;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+nav {
+    display: flex;
+}
+button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: cornsilk;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.back {
+    margin-right: 8px;
+}
+.reset {
+    opacity: 0.9;
+    margin-left: auto;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid lightgray;
+}
