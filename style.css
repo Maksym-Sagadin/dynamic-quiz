@@ -1,6 +1,6 @@
 .main-container {
-    margin: 0 10px;
-    width: 750px;
+    margin: 0 auto;
+    max-width: 750px;
 }
 .error {
     color: red;
