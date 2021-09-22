@@ -30,6 +30,7 @@ input {
 }
 nav {
     display: flex;
+    align-items: flex-start;
 }
 button {
     margin-top: 15px;
