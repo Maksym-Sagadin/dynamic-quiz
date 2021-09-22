@@ -96,6 +96,7 @@ function renderQuestion(currentQuestionIndex) {
 resetButton.addEventListener('click', function() {
   currentQuestionIndex = 0;
   renderQuestion(currentQuestionIndex);
+  document.querySelector('#question').classList.remove('hidden');
   backButton.classList.add('hidden');
   nextButton.classList.remove('hidden');
   nextButton.textContent = 'Next';
@@ -145,6 +146,7 @@ backButton.addEventListener('click', function() {
 });
 
 function calculateResults() {
+  document.querySelector('#question').classList.add('hidden');
   let correctCount = 0;
   for (let correct of answers) {
     if (correct === 'true') {
